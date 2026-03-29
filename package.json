@@ -1,0 +1,17 @@
+{
+  "name": "remem",
+  "version": "0.1.0",
+  "description": "Prompt-time memory retrieval for hook-based coding agents.",
+  "type": "module",
+  "bin": {
+    "remem": "./bin/remem.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start:sync": "node ./bin/remem.js sync serve"
+  },
+  "engines": {
+    "node": ">=25"
+  },
+  "license": "MIT"
+}

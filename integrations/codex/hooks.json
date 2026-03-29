@@ -1,0 +1,34 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CODEX_PLUGIN_ROOT}/scripts/remem-hook.sh session-start"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CODEX_PLUGIN_ROOT}/scripts/remem-hook.sh user-prompt"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CODEX_PLUGIN_ROOT}/scripts/remem-hook.sh stop"
+          }
+        ]
+      }
+    ]
+  }
+}

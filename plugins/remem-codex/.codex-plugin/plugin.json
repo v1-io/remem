@@ -1,0 +1,42 @@
+{
+  "name": "remem-codex",
+  "version": "0.1.0",
+  "description": "Prompt-time session memory for Codex.",
+  "author": {
+    "name": "Remem",
+    "url": "https://github.com/danielhostetler/remem"
+  },
+  "homepage": "https://github.com/danielhostetler/remem",
+  "repository": "https://github.com/danielhostetler/remem",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "memory",
+    "hooks",
+    "retrieval"
+  ],
+  "hooks": "./hooks.json",
+  "interface": {
+    "displayName": "Remem",
+    "shortDescription": "Retrieve relevant prior coding sessions into prompt context",
+    "longDescription": "Remem creates one memory artifact per session and uses prompt-time retrieval to surface the most relevant prior sessions back into the agent context.",
+    "developerName": "Remem",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "https://github.com/danielhostetler/remem",
+    "privacyPolicyURL": "https://github.com/danielhostetler/remem",
+    "termsOfServiceURL": "https://github.com/danielhostetler/remem",
+    "defaultPrompt": [
+      "Search session memory before each prompt",
+      "Remember what we changed in ThreadContext last week",
+      "Share memory across my machines"
+    ],
+    "brandColor": "#0F172A",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg",
+    "screenshots": []
+  }
+}
