@@ -21,7 +21,7 @@
 If you just want to try `remem` locally:
 
 ```bash
-git clone https://github.com/danielhostetler/remem.git
+git clone https://github.com/v1-io/remem.git
 cd remem
 npm link
 remem doctor
